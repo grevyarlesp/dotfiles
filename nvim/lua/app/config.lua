@@ -9,6 +9,7 @@ M.pack = {
   csharp = true,
   go = true,
   cpp = true,
+  rust = true,
   lua = true,
   markdown = true,
   php = true,
