@@ -19,8 +19,10 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        clangd = {
-          on_attach = function() end,
+        rust_analyzer = {
+          diagnostics = {
+            enable = true,
+          },
         },
       },
     },

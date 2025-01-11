@@ -14,8 +14,8 @@ function M.setup()
 
   -- Diagnostic configuration
   vim.diagnostic.config({
-    virtual_text = false,
-    signs = false,
+    virtual_text = true,
+    signs = true,
     underline = true,
     update_in_insert = false,
     severity_sort = true,
