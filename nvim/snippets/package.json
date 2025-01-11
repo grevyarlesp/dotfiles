@@ -1,0 +1,10 @@
+{
+  "contributes": {
+    "snippets": [
+      {
+        "language": "toml",
+        "path": "./toml.json"
+      }
+    ]
+  }
+}
