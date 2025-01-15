@@ -1,1 +1,1 @@
-ln -s nvim ~/.config
+ln -s `pwd`/nvim $HOME/.config/nvim
