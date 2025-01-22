@@ -64,7 +64,6 @@ vim.opt.smartindent = true -- Makes indenting smart
 vim.opt.completeopt = { "menuone", "noinsert", "noselect" } -- no autofilling and no auto select first item in autocompletion menu
 vim.opt.virtualedit = "block" -- Allow going past the end of line in visual block mode
 vim.opt.formatoptions = "qjl1" -- Don't autoformat comments
-vim.opt.iskeyword:append("-") -- treat dash separated words as a word text object--
 
 vim.opt.scrolloff = 999 -- Number of lines to keep above and below the cursor
 vim.opt.sidescrolloff = 999 -- Number of columns to keep at the sides of the cursor
