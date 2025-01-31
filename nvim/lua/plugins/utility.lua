@@ -119,6 +119,8 @@ return {
         { "]z", ufo.goNextClosedFold, mode = "n", desc = "Next Fold" },
         { "[z", ufo.goPreviousClosedFold, mode = "n", desc = "Prev Fold" },
         { "zp", ufo.peekFoldedLinesUnderCursor, mode = "n", desc = "Peek fold" },
+        { "zM", ufo.closeAllFolds, mode = "n", desc = "Close all folds" },
+        { "zR", ufo.openAllFolds, mode = "n", desc = "open all folds" },
       }
     end,
     opts = {
